@@ -4,7 +4,7 @@
 #pip install mysql-connector
 #pip install mysql-connector-python
 
-
+# superuser admin passwd admin
 
 import mysql.connector 
 database = mysql.connector.connect(
