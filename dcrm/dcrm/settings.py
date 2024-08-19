@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'elderco',
-        'USER':'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'USER':'trhkfccxqd',
+        'PASSWORD': 'PBGFmrKYomGb9d$2',
+        'HOST': 'ag-crm-server.mysql.database.azure.com',
         'PORT': '3306',
 
     }
