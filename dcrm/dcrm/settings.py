@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k4o$z*qjb2*2m+nz^6e^5un6j*7r*(f6z5rfdg48bh94--l69d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ag-crm.azurewebsites.net']
+ALLOWED_HOSTS = ['*', 'ag-crm.azurewebsites.net']
 CSRF_TRUSTED_ORIGINS = ['https://ag-crm.azurewebsites.net']
 
 
