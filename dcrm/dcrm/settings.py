@@ -84,6 +84,12 @@ DATABASES = {
         'HOST': 'ag-crm-server.mysql.database.azure.com',
         'PORT': '3306',
 
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.getenv('AZURE_MYSQL_NAME'),
+        'USER': os.getenv('AZURE_MYSQL_USER'),
+        'PASSWORD': os.getenv('AZURE_MYSQL_PASSWORD'),
+        'HOST': os.getenv('AZURE_MYSQL_HOST'),
+
     }
 }
 
