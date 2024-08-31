@@ -5,7 +5,22 @@
 <div class="col-md-6 offset-md-3">
 
 {% if user.is_authenticated %}    
-<h1> Hello Ayush</h1>
+<h1> Hello Ayush, Here are all Records...</h1>
+
+{% if records %}
+    {% for record in records %}
+        {{ record.id }} 
+        {{ record.first_name }} 
+        {{ record.last_name }} 
+        {{ record.v_dash }} 
+        {{ record.city }} 
+    </br>
+    {% endfor %}
+
+
+{% endif%}
+
+
 
 {% else %}
 <h1> Login</h1>
